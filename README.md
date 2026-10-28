@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CareSlot · Appointment No-Show Reduction System for Clinics
 
 Helps clinic staff see which appointments are likely to be missed, act on them early
@@ -123,3 +124,7 @@ Open http://localhost:5173. The Vite dev server proxies `/api` requests to the b
 - Let patients confirm by reply or through a link
 - Login for receptionist, doctor and admin roles
 - Waitlist: offer freed slots to patients who are waiting
+=======
+# VisitFlow
+VisitFlow is a user-friendly web application designed to simplify the process of booking doctor appointments. It helps patients manage appointments conveniently while enabling doctors to organize their schedules and appointment records efficiently.
+>>>>>>> 1a5928f01a71ec26d485cb56d445105197b6daa1
