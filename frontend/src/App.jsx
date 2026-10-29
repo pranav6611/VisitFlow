@@ -147,8 +147,8 @@ export default function App() {
             <section className="panel">
               <div className="panel-head">
                 <div>
-                    <h2>{date === todayStr() ? "Today's appointments" : `Appointments for ${date}`}</h2>
-                    <p className="muted">Sorted by time. Risk shows the estimated chance of a no-show.</p>
+                  <h2>{date === todayStr() ? "Today's appointments" : `Appointments for ${date}`}</h2>
+                  <p className="muted">Sorted by time. Risk shows the estimated chance of a no-show.</p>
                 </div>
                 <div className="chips">
                   {[

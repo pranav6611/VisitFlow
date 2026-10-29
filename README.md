@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 935ff12c2a7f68148711fa0babe23b195a3d57a6
 # CareSlot · Appointment No-Show Reduction System for Clinics
 
 Helps clinic staff see which appointments are likely to be missed, act on them early
@@ -47,7 +51,11 @@ Replace `RiskService` with a trained model once you have enough history.
 
 ```
 clinic-noshow/
+<<<<<<< HEAD
 ├── backend/    Spring Boot REST API (port 8081)
+=======
+├── backend/    Spring Boot REST API (port 8080)
+>>>>>>> 935ff12c2a7f68148711fa0babe23b195a3d57a6
 ├── frontend/   React dashboard (port 5173)
 └── database/   schema.sql (optional, tables are auto-created)
 ```
@@ -115,7 +123,11 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 Open the Vite URL shown in the terminal (normally http://localhost:5173). The Vite dev server proxies `/api` requests to the backend at `http://localhost:8081`, avoiding browser CORS errors. If the API is elsewhere, copy `.env.example` to `.env` and set `VITE_API_URL` to its URL.
+=======
+Open http://localhost:5173. The Vite dev server proxies `/api` requests to the backend at `http://localhost:8080`, avoiding browser CORS errors. If the API is elsewhere, copy `.env.example` to `.env` and set `VITE_API_URL` to its URL (for example, `http://localhost:8081/api`).
+>>>>>>> 935ff12c2a7f68148711fa0babe23b195a3d57a6
 
 ## Ideas for next steps
 
@@ -123,3 +135,10 @@ Open the Vite URL shown in the terminal (normally http://localhost:5173). The Vi
 - Let patients confirm by reply or through a link
 - Login for receptionist, doctor and admin roles
 - Waitlist: offer freed slots to patients who are waiting
+<<<<<<< HEAD
+=======
+=======
+# VisitFlow
+VisitFlow is a user-friendly web application designed to simplify the process of booking doctor appointments. It helps patients manage appointments conveniently while enabling doctors to organize their schedules and appointment records efficiently.
+>>>>>>> 1a5928f01a71ec26d485cb56d445105197b6daa1
+>>>>>>> 935ff12c2a7f68148711fa0babe23b195a3d57a6
